@@ -19,3 +19,22 @@ class ContractDetails(object):
         self.liquid_hours = liquid_hours
         self.ev_rule = ev_rule
         self.ev_multiplier = ev_multiplier
+
+        self.sec_id_list = []
+
+        # Bond values
+        self.cusip = ''
+        self.ratings = ''
+        self.desc_append = ''
+        self.bond_type = ''
+        self.coupon_type = ''
+        self.callable = False
+        self.putable = False
+        self.coupon = 0
+        self.convertible = False
+        self.maturity = ''
+        self.issue_date = ''
+        self.next_option_date = ''
+        self.next_option_type = ''
+        self.next_option_partial = False
+        self.notes = ''
